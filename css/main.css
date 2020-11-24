@@ -1,7 +1,15 @@
 html {
+  box-sizing: border-box;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
   font-family: "Asap Condensed", sans-serif;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
 .hover-box {
   color: #fff;
 }
